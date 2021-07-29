@@ -14,4 +14,12 @@ def alter_meta(meta):
         meta['indicator_name'] = 'global_indicators.' + id_parts[0] + '-' + id_parts[1] + '-' + id_parts[2] + '-title'
     return meta
 
-open_sdg_build(config='config_data.yml', alter_meta=alter_meta)
+def alter_data(df):
+    def row_matches_ref_area(row):
+        return row['REF_AREA'] == 'RW'
+
+    df = df.copy()
+    mask = df.apply(row_matches_ref_area, axis=1)
+    return df[mask]
+
+open_sdg_build(config='config_data.yml', alter_meta=alter_meta, alter_data=alter_data)
