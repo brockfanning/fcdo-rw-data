@@ -1,17 +1,14 @@
 from sdg.open_sdg import open_sdg_build
 
-
 def alter_meta(meta):
-# Automatically detect global indicators.
-    if 'indicator_number' in meta:
-        indicator_id = meta['indicator_number']
-        id_parts = indicator_id.split('.')
+    if 'en' in meta:
+        for key in meta['en']:
+            if meta['en'][key] is not None and isinstance(meta['en'][key], str):
+                meta['en'][key] = meta['en'][key].replace("'", "&#39;")
+    for key in meta:
+        if meta[key] is not None and isinstance(meta[key], str):
+            meta[key] = meta[key].replace("'", "&#39;")
 
-        # Automatically set some predicable properties.
-        meta['goal_number'] = id_parts[0]
-        meta['target_number'] = id_parts[0] + '.' + id_parts[1]
-        meta['target_name'] = 'global_targets.' + id_parts[0] + '-' + id_parts[1] + '-title'
-        meta['indicator_name'] = 'global_indicators.' + id_parts[0] + '-' + id_parts[1] + '-' + id_parts[2] + '-title'
     return meta
 
 def alter_data(df):
