@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF1627599093</mes:ID>
+    <mes:Test>True</mes:Test>
+    <mes:Prepared>2021-07-29T22:51:33</mes:Prepared>
+    <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
+    <mes:Structure structureID="MDS1">
+      <com:Structure>
+        <URN>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(0.3)</URN>
+      </com:Structure>
+    </mes:Structure>
+  </mes:Header>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="bb4d9468-4739-41d7-bac8-584c1efc656c">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_MORT</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1</p><p>By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1.1</p><p>Maternal mortality ratio</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>WHO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>The maternal mortality ratio (MMR) is the ratio of the number of maternal deaths during a given time period per 100,000 live births during the same time-period. </p><p>A maternal death refers to a female death from any cause related to or aggravated by pregnancy or its management (excluding accidental or incidental causes) during pregnancy and childbirth or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy. The time reference for MMR is five years period preceding the survey dates.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Death Per 100,000 Live births</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Direct Sisterhood Method is used in DHS to estimate maternal deaths.</p><p>Maternal Mortality Rate: is obtained by dividing the number of maternal deaths in a population by the number of women of reproductive age (15-49) multiply by 1000.GFR: denotes General Fertility Rate and it is calculated by dividing the number of births in a year divided by the number of women aged 15-49, times 1000.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 865kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="e014daac-9e15-4115-a736-0c69e980ba06">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_BRTC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1</p><p>By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1.2</p><p>Proportion of births attended by skilled health personnel</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNICEF</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage distribution of live birth in the five years preceding the survey by person providing assistance during delivery, according to background characteristics</p><h2>Definition</h2><p>Is the proportion of total live births in a period that are attended by a skilled birth attendant trained in providing lifesaving obstetric care.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Calculated as the number of births attended by skilled health personnel (doctors, nurses or midwives) divided by the total number of births in the same period and multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 374 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National </p><h2>Disaggregation</h2><ul><li>National, Province, Districts, Residence (Urban/ Rural)</li><li>Mother’s age at birth, Birth order, Mother’s education level,</li><li>Place of Delivery (Health facility, Elsewhere), Wealth quintiles</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="8a2dc6a0-c84d-40f3-81c9-85da9bb8b278">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_HIV_INCD</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3</p><p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3.1</p><p>Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Joint United Nations Programme on HIV/AIDS (UNAIDS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Health (MoH)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>HIV Incidence </p><h2>Definition</h2><p>The incidence rate is the number of new cases per population at risk in a given time period.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Per 1,000 uninfected population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as </p><p>Number of new HIV infections / Uninfected persons</p><p> x 1,000</p><p>Uninfected population (which is the total population minus people living with HIV)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Residence</li><li>Age group</li><li>Sex </li><li>Marital Status</li><li>Risk Factors</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="4463f37b-46a1-4477-a2f8-bdd66fb40bab">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_MALR</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3</p><p><br/>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3.3</p><p>Malaria incidence per 1,000 population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>WHO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>RBC </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>The Incidence of malaria refers to the number of new cases of malaria per 1,000 people per year. Malaria cases are confirmed by microscopic examination or RDT in Rwanda.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Incidence Rate per 1000 population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Where Mt denotes the number of new cases of malaria in</p><p>year t and (Pop) total population.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 431 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District &amp; Residence (Urban &amp; Rural)</li><li>Sex</li><li>Age</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="4ca07ca6-67b7-42dc-89db-a69a98f72d79">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_FPL_MTMM</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7</p><p>By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7.1</p><p>Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Economic and Social Affairs (DESA), Population Division</p><p>United Nations Population Fund (UNFPA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of currently married women age 15-49 with met need for family planning, Percentage of demand satisfied by modern methods</p><h2>Definition</h2><p>is defined as the percentage of women of reproductive age 15-49, either married or in a consensual union, who are using modern contraceptive method for family planning.</p><p>Modern methods include female sterilization, male sterilization, pill, IUD, injectables, implants, male condom, female condom, standard days method, and lactational amenorrhea method (LAM).</p><p>Women using contraception are considered to have a met need. Women using contraception who say they want no (more) children are considered to have a met need for limiting, and women who are using contraception and say they want to delay having a child or are unsure if or when they want a (another) child, are considered to have a met need for spacing.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Number of currently married women using modern contraceptive methods divided by the sum of unmet need plus total contraceptive use</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 865kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, Residence (Urban/Rural)</li><li>Sex</li><li>Age</li><li>Socio-economic Characteristics of Mothers: Wealth quintile and Education</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="ba44f798-fea8-4e64-adc1-0baf5ba2a6f3">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SP_DYN_ADKL</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7</p><p>By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7.2</p><p>Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Economic and Social Affairs (DESA), Population Division</p><p>United Nations Population Fund (UNFPA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of women age 15-19 who have had a live birth or who are pregnant with their first child, and percentage who have begun childbearing, by background characteristics.</p><h2>Definition</h2><p>Annual number of births to females aged 15-19 years per 1,000 females in the respective age group. </p><p>The adolescent birth rate represents the risk of childbearing among females in the particular age group.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Per 1,000 females</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The main limitations concern age misreporting, birth omissions, misreporting the date of birth of the child, and sampling variability in the case of surveys.</p><p>The adolescent birth rate among females aged 10-14 years is not collected in the RDHS due to the very small proportion of births in this age group occur to females below age 12.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The numerator is the number of live births obtained from retrospective birth histories of the interviewed women who were 15-19 years of age at the time of the births during a reference period before the interview, and the denominator is person-years lived between the ages of 15 and 19 years by the interviewed women during the same reference period. The reported observation year corresponds to the middle of the reference period. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, Residence (Urban/Rural)</li><li>Age</li><li>Socio-economic Characteristics: Wealth quintile and Education</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="fb922a96-52f0-4eea-a551-8f90ed8bdd91">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_PRV_SMOK</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.a</p><p>Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.a.1</p><p>Age-standardized prevalence of current tobacco use among persons aged 15 years and older</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Health Organization (WHO) Framework Convention on Tobacco Control (FCTC)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of men/women age 15-49 who smoke cigarettes or a pipe or use other tobacco products</p><h2>Definition</h2><p>The indicator is defined as the percentage of the population aged 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as; </p><p>Number of Current tobacco users age 15-19 years / Total population</p><p>“Current users” include both daily and non-daily users of smoked or smokeless tobacco</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0a-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-0a-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District, Residence (Urban &amp; Rural)</li><li>Sex</li><li>Education</li><li>Maternity status</li><li>wealth quintiles</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="f0332922-d06a-4869-bcee-6fcea9a58fbb">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_ALC_CONSPT</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.5</p><p>Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.5.2</p><p>Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Health Organisation (WHO)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Health</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Alcohol consumption: Current and Heavy Drinkers among Survey Total Population by background characteristics</p><h2>Definition</h2><p>Consumption in the past 30 days is defined as current alcohol drinkers. The quantity of alcohol consumed was assessed and drinkers were categorized into heavy and non -heavy drinkers. </p><p>Male heavy drinkers consumed more than 5 servings on a single occasion while for female it is 4 servings on a single occasion.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is computed as;</p><p>Heavy alcohol drinker = </p><p>Number of heavy drinkers / Total population x 100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2012</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Residence: Urban, Semi-Urban, Rural</li><li>Age</li><li>Sex</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="dba9e799-6e53-449d-b8e5-93ce0e6e4999">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_TRP_INTVN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3</p><p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3.5</p><p>Number of people requiring interventions against neglected tropical diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>WHO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Health</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Number of people requiring Preventive Chemotherapy (PC) for at least one of the selected neglected tropical diseases (schistosomiasis, soil-transmitted helminthiases, Schistosoma, Trichuris, Entomoelba coli)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Number</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Prevention of helminthiases / data for 15years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 865kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+</mes:GenericMetadata>
+        

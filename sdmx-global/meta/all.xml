@@ -1,0 +1,3715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF1627599093</mes:ID>
+    <mes:Test>True</mes:Test>
+    <mes:Prepared>2021-07-29T22:51:33</mes:Prepared>
+    <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
+    <mes:Structure structureID="MDS1">
+      <com:Structure>
+        <URN>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(0.3)</URN>
+      </com:Structure>
+    </mes:Structure>
+  </mes:Header>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="d7212198-1b37-454d-89c9-c37893bf8cdb">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SI_POV_NAHC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.2</p><p>By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.2.1</p><p>Proportion of population living below the national poverty line, by sex and age</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Bank</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Defined as the percentage of the population living below the national poverty line which is on less than 64,000 RWF per adult equivalent per year measured in 2001 prices corresponding to 118, 000 RWF in 2010.</p><p>The poverty line is a threshold of the value of total annual per capita consumption in a household below which an individual is considered poor. Aggregate household consumption is computed as the sum of expenditure on food as well as value of auto consumption, expenditure on non-food, health items, education, housing utilities, value of in-kind wages, other benefits received by the household and a measure of the use value of durable goods owned by the household. Consumption per capita is then computed as the total consumption per adult equivalent. Where adult equivalence is an aggregate indicator for household size which takes into account its age and sex composition.</p><p>The poverty line is then set with reference to a minimum food consumption basket, judged to offer the required number of calories (2200 k calories per day) for a Rwandan likely to be involved in physically demanding agricultural activity, along with an allowance for non-food consumption. The non-food consumption expenditure is determined as a function of food consumption.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>EICV surveys do not collect information on the intrahousehold distribution of consumption. Thus, the consumption-based standard of living measure is based on the assumption that individuals are represented in the distribution by the consumption measure of the household they belong to. This fails to take account of inequality in distribution within the household.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Household annual consumption per adult equivalent is computed and compared with the poverty line. Individuals living in households whose per capita consumption falls below the poverty line are considered as poor.</p><p>Where N<sub>p</sub> denotes the number of population (adult equivalent) living below the poverty line and N denotes total number of population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 98.2 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2000</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District Residence (Urban &amp; Rural)</li><li>Sex</li><li>Age group</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv">http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</a> </p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="a29bd637-2466-4032-95ff-377230f5d2ad">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_DSR_SFDRR</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.5</p><p>By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.5.3</p><p>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030/a</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNISDR</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Disaster Management and Refugee Affairs (MIDIMAR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>THE NATIONAL DISASTER MANAGEMENT POLICY (Revised version to be validated by December 2017</p><h2>Definition</h2><p>The indicator monitors whether a national government has adopted and implemented national and local DRR strategies, which the Sendai Framework calls for.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p>https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="361725a1-cfb6-419e-81e7-90634ec7dbba">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_DSR_LEGREG</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.5</p><p>By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.5.3</p><p>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030/a</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNISDR</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Disaster Management and Refugee Affairs (MIDIMAR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>THE NATIONAL DISASTER MANAGEMENT POLICY (Revised version to be validated by December 2017</p><h2>Definition</h2><p>The indicator monitors whether a national government has adopted and implemented national and local DRR strategies, which the Sendai Framework calls for.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p>https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="8ef68566-eb8e-4d5c-8557-5011b7b027de">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_DSR_LGRGSR</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.5</p><p>By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1.5.3</p><p>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030/a</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNISDR</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Disaster Management and Refugee Affairs (MIDIMAR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>THE NATIONAL DISASTER MANAGEMENT POLICY (Revised version to be validated by December 2017</p><h2>Definition</h2><p>The indicator monitors whether a national government has adopted and implemented national and local DRR strategies, which the Sendai Framework calls for.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p>https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="bb4d9468-4739-41d7-bac8-584c1efc656c">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_MORT</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1</p><p>By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1.1</p><p>Maternal mortality ratio</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>WHO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>The maternal mortality ratio (MMR) is the ratio of the number of maternal deaths during a given time period per 100,000 live births during the same time-period. </p><p>A maternal death refers to a female death from any cause related to or aggravated by pregnancy or its management (excluding accidental or incidental causes) during pregnancy and childbirth or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy. The time reference for MMR is five years period preceding the survey dates.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Death Per 100,000 Live births</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Direct Sisterhood Method is used in DHS to estimate maternal deaths.</p><p>Maternal Mortality Rate: is obtained by dividing the number of maternal deaths in a population by the number of women of reproductive age (15-49) multiply by 1000.GFR: denotes General Fertility Rate and it is calculated by dividing the number of births in a year divided by the number of women aged 15-49, times 1000.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 865kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="e014daac-9e15-4115-a736-0c69e980ba06">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_BRTC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1</p><p>By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1.2</p><p>Proportion of births attended by skilled health personnel</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNICEF</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage distribution of live birth in the five years preceding the survey by person providing assistance during delivery, according to background characteristics</p><h2>Definition</h2><p>Is the proportion of total live births in a period that are attended by a skilled birth attendant trained in providing lifesaving obstetric care.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Calculated as the number of births attended by skilled health personnel (doctors, nurses or midwives) divided by the total number of births in the same period and multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 374 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National </p><h2>Disaggregation</h2><ul><li>National, Province, Districts, Residence (Urban/ Rural)</li><li>Mother’s age at birth, Birth order, Mother’s education level,</li><li>Place of Delivery (Health facility, Elsewhere), Wealth quintiles</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="8a2dc6a0-c84d-40f3-81c9-85da9bb8b278">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_HIV_INCD</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3</p><p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3.1</p><p>Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Joint United Nations Programme on HIV/AIDS (UNAIDS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Health (MoH)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>HIV Incidence </p><h2>Definition</h2><p>The incidence rate is the number of new cases per population at risk in a given time period.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Per 1,000 uninfected population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as </p><p>Number of new HIV infections / Uninfected persons</p><p> x 1,000</p><p>Uninfected population (which is the total population minus people living with HIV)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Residence</li><li>Age group</li><li>Sex </li><li>Marital Status</li><li>Risk Factors</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="4463f37b-46a1-4477-a2f8-bdd66fb40bab">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_MALR</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3</p><p><br/>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3.3</p><p>Malaria incidence per 1,000 population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>WHO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>RBC </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>The Incidence of malaria refers to the number of new cases of malaria per 1,000 people per year. Malaria cases are confirmed by microscopic examination or RDT in Rwanda.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Incidence Rate per 1000 population</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Where Mt denotes the number of new cases of malaria in</p><p>year t and (Pop) total population.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 431 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District &amp; Residence (Urban &amp; Rural)</li><li>Sex</li><li>Age</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="4ca07ca6-67b7-42dc-89db-a69a98f72d79">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_FPL_MTMM</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7</p><p>By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7.1</p><p>Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Economic and Social Affairs (DESA), Population Division</p><p>United Nations Population Fund (UNFPA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of currently married women age 15-49 with met need for family planning, Percentage of demand satisfied by modern methods</p><h2>Definition</h2><p>is defined as the percentage of women of reproductive age 15-49, either married or in a consensual union, who are using modern contraceptive method for family planning.</p><p>Modern methods include female sterilization, male sterilization, pill, IUD, injectables, implants, male condom, female condom, standard days method, and lactational amenorrhea method (LAM).</p><p>Women using contraception are considered to have a met need. Women using contraception who say they want no (more) children are considered to have a met need for limiting, and women who are using contraception and say they want to delay having a child or are unsure if or when they want a (another) child, are considered to have a met need for spacing.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Number of currently married women using modern contraceptive methods divided by the sum of unmet need plus total contraceptive use</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 865kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, Residence (Urban/Rural)</li><li>Sex</li><li>Age</li><li>Socio-economic Characteristics of Mothers: Wealth quintile and Education</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="ba44f798-fea8-4e64-adc1-0baf5ba2a6f3">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SP_DYN_ADKL</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7</p><p>By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.7.2</p><p>Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Economic and Social Affairs (DESA), Population Division</p><p>United Nations Population Fund (UNFPA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of women age 15-19 who have had a live birth or who are pregnant with their first child, and percentage who have begun childbearing, by background characteristics.</p><h2>Definition</h2><p>Annual number of births to females aged 15-19 years per 1,000 females in the respective age group. </p><p>The adolescent birth rate represents the risk of childbearing among females in the particular age group.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Per 1,000 females</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The main limitations concern age misreporting, birth omissions, misreporting the date of birth of the child, and sampling variability in the case of surveys.</p><p>The adolescent birth rate among females aged 10-14 years is not collected in the RDHS due to the very small proportion of births in this age group occur to females below age 12.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The numerator is the number of live births obtained from retrospective birth histories of the interviewed women who were 15-19 years of age at the time of the births during a reference period before the interview, and the denominator is person-years lived between the ages of 15 and 19 years by the interviewed women during the same reference period. The reported observation year corresponds to the middle of the reference period. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, Residence (Urban/Rural)</li><li>Age</li><li>Socio-economic Characteristics: Wealth quintile and Education</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="fb922a96-52f0-4eea-a551-8f90ed8bdd91">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_PRV_SMOK</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.a</p><p>Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.a.1</p><p>Age-standardized prevalence of current tobacco use among persons aged 15 years and older</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Health Organization (WHO) Framework Convention on Tobacco Control (FCTC)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of men/women age 15-49 who smoke cigarettes or a pipe or use other tobacco products</p><h2>Definition</h2><p>The indicator is defined as the percentage of the population aged 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as; </p><p>Number of Current tobacco users age 15-19 years / Total population</p><p>“Current users” include both daily and non-daily users of smoked or smokeless tobacco</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0a-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-0a-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District, Residence (Urban &amp; Rural)</li><li>Sex</li><li>Education</li><li>Maternity status</li><li>wealth quintiles</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="1cf8ef7a-f57f-4703-834a-ed4641c1432f">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_TOT_PRFL</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.1</p><p>By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.1.1</p><p>Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNESCO Institute for Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Education (MINEDUC)/ Rwanda Education Board (REB)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Percentage of children and young people in Grade 2 or 3 of primary education, at the end of primary education and the end of lower secondary education achieving at least a minimum proficiency level in (a) reading and (b) mathematics. The minimum proficiency level will be measured relative to new common reading and mathematics scales currently in development</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject. </p><p>Performance above the minimum level, PLtn,s, above minimum = p where p is the percentage of students in a learning assessment at stage of education n, in subject s in any year (t-i) where 0 ? i ? 5, who has achieved the level of proficiency that is greater than a pre-defined minimum standard, Smin. </p><p>The minimum standard is defined by the global education community taking into consideration regional differences.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>3 (a) /2 (b,c)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="6005a251-b30d-455b-af2e-16eaeb1f4bf8">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_DEV_ONTRK</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.2</p><p>By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.2.1</p><p>Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children's Fund (UNICEF)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of children age 36-59 months who are developmentally on track in at least three of the four domains (Literacy-numeracy, Physical, Social-emotional and Learning ) </p><h2>Definition</h2><p>The proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being is currently being measured by the percentage of children aged 36-59 months who are developmentally on-track in at least three of the following four domains: literacy-numeracy, physical, socio-emotional and learning.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The number of children under the age of five who are developmentally on track in health, learning and psychosocial well-being divided by the total number of children under the age of five in the population.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-02-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Residence (Urban/Rural), Province</li><li>Age in months</li><li>Sex</li><li>Mother’s education</li><li>Wealth quintile</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>3</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="6bf670a2-6dfa-4445-a237-539ac30d881c">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_PRE_PARTN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.2</p><p>By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.2.2</p><p>Participation rate in organized learning (one year before the official primary entry age), by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Education </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Total Pre-nursery learners (percentage)</p><h2>Definition</h2><p>The participation rate in organized learning (one year before the official primary entry age), by sex as defined as the percentage of children in the given age range who participate in one or more organized learning programme, including programmes which offer a combination of education and care. Participation in early childhood and in primary education are both included. The age range will vary by country depending on the official age for entry to primary education. </p><p><strong>Rationale:</strong> The indicator measures childrenâ€™s exposure to organized learning activities in the year prior to the start of primary school. A high value of the indicator shows a high degree of participation in organized learning immediately before the official entrance age to primary education.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator can be calculated as the number of enrolments in organized learning programmes are reported by schools divided by the population in the age group one year below the official primary entry age.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-02-02.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 223 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Sex</li><li>Type of establishment</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://mineduc.gov.rw/resource/statistics/statistical-year-books/">http://mineduc.gov.rw/resource/statistics/statistical-year-books/</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="a6103443-fda2-4a68-8efe-ef2891ac9735">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_ADT_EDUCTRN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.3</p><p>By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.3.1</p><p>Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of the population aged 14 and above attending technical and vocational training school in previous 12 months </p><h2>Definition</h2><p>The percentage of youth and adults in a given age range (e.g. 14 and above years) participating in vocational training in a given time period (e.g. last 12 months)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The number of people in selected age groups participating in vocational training is expressed as a percentage of the population of the same age.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p>https://unstats.un.org/sdgs/metadata/files/Metadata-04-03-01.pdf</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p>http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</p><h2>Other information</h2><p>Data are only available for formal and Informal in TVET education</p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="ebde2ecd-4f41-4be3-985d-810e435f21ce">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_ADT_ACTS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.4</p><p>By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.4.1</p><p>Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Computer literacy rate (a) of population aged 15-24 years &amp; (b) population aged 15 + years</p><h2>Definition</h2><p>It is the percentage of youth (aged 15-24 years) and adults (aged 15 years and above) that have undertaken certain computer-related activities in a given time period (e.g. last three months). </p><p>Computer-related activities to measure ICT skills include: - Copying or moving a file or folder - Using copy and paste tools to duplicate or move information within a document - Sending e-mails with attached files (e.g. document, picture, and video) - Using basic arithmetic formulae in a spreadsheet - Connecting and installing new devices (e.g. modem, camera, printer) - Finding, downloading, installing and configuring software -Creating electronic presentations with presentation software (including text, images, sound, video or charts) - Transferring files between a computer and other devices - Writing a computer program using a specialised programming language A computer refers to a desktop computer, a laptop (portable) computer or a tablet (or similar handheld computer). It does not include equipment with some embedded computing abilities, such as smart TV sets or cell phones.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as;</p><p>PICTta = ICTta / pta</p><p>Where</p><p>PICTta = percentage of people in age group a who have ICT skill in year t</p><p>ICTta = number of people in age group a who have ICT skill in year t</p><p>pta = population in age group a in year t</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-04-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 214 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Residence (Urban/Rural), Province</li><li>Sex</li><li>Quintile</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv">http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</a></p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="8979ecf4-a3f9-4653-afd3-effa90fd95a6">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_ADT_FUNS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.6</p><p>By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.6.1</p><p>Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>(a) Literacy rate (%) of population aged 15-24 years, Literacy rate (%) of population aged 15+ years</p><p>(b) Numeracy rate (%) of population aged 15-24 years, Numeracy rate (%) of population aged 15+ years</p><h2>Definition</h2><p>The proportion of youth (aged 15-24 years) and of adults (aged 15 years and above) have achieved or exceeded a given level of proficiency in (a) literacy and (b) numeracy. </p><p>In EICV, Literacy is measured through a self-assessment question on whether the respondent can read and write a simple note.</p><p>Numeracy is measured through a self-assessment question on the ability to perform a written calculation.</p><p>Whereas for DHS, literacy rate refers to men and women who attended secondary school or higher and women who can read a whole sentence or part of a sentence.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as;</p><p>LRta = lta / pta</p><p>Where</p><p>LRta = Literacy rate of age group a in year t </p><p>L= number of people in age group a who have achieved above the minimum level of literacy</p><p>pta = Population of age group a in year t </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 57.8 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><p>Geographical: National, Residence (Urban/Rural), Province</p><p>Sex</p><p>Quintile</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a> </p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="01fb9a87-d5fb-46b8-a52e-6d60b683d3dd">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_TRA_GRDL</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.c: </p><p>By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.c.1: </p><p>Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Education </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@mineduc.gov.rw" target="_blank">info@mineduc.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Pupil: Trained teacher a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education</p><h2>Definition</h2><p>Pupil to trained teacher ratio (PTTR) in a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education is the average number of pupils per trained teacher in a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education education in a given school year. </p><p>A trained teacher is one who has received at least the minimum organized pedagogical teacher training pre-service and in-service required for teaching at the relevant level.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ratio</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>PQTR = Total number of pupils in Primary education in year t / Total number of trained teachers in Primary education in year t</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p>http://mineduc.gov.rw/resource/statistics/statistical-year-books/</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="6ef4dfdc-6ab9-46c6-89fe-a7b44dd16e87">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_H2O_SAFE</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>6.1</p><p>By 2030, achieve universal and equitable access to safe and affordable drinking water for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>6.1.1</p><p>Proportion of population using safely managed drinking water services</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNICEF, WHO, UN-WATER</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of HHs with access to improved drinking water source</p><h2>Definition</h2><p>It Is the proportion of households using an improved basic drinking water source. Improved drinking water sources include the following: piped water into dwelling, yard or plot; public taps or standpipes; boreholes or tubewells; protected dug wells; protected springs and rainwater.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Indicator is computed as; </p><p>Na / N x 100</p><p>Where Na denotes number of households with access to improved drinking water source and N denotes total number of households.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2000</p><h2>Latest available data</h2><p>2018</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District &amp; Residence (Urban &amp; Rural)</li><li>Type of improved water sources </li><li>Sex of head of household</li><li>Consumption quintile, disability status</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv">http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</a></p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="01a56def-d094-42dc-b9d7-4f2e6f2e1d7c">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>EG_ACS_ELEC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>7.1</p><p>By 2030, ensure universal access to affordable, reliable and modern energy services</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>7.1.1</p><p>Proportion of population with access to electricity</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Bank (WB)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>It is the number of households who use electricity as their main source for lighting to the total number of households expressed as a percentage.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>EICV considers <strong>only grid connected households </strong>using electricity<strong> </strong>as their main source of home lighting (National connection grid and local mini grid are combined together). Off grid sources like solar panel, generator and rechargeable batteries are reported separately.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is computed as; </p><p>Pe / Pt</p><p>Where Pe denotes the number of households who declared using electricity as their main source for lighting and Pt denotes the total number of urban households.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf</a> </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2000</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><p>Geographical: National, Province, District &amp; Residence (Urban &amp; Rural)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv">http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</a> </p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="b44b0a1d-b153-40b3-9066-fefee184dcf0">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_NEET</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.6</p><p>By 2020, substantially reduce the proportion of youth not in employment, education or training</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.6.1</p><p>Proportion of youth (aged 15-24 years) not in education, employment or training</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>International Labour Organization (ILO)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>NISR</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Youth not in employment and not currently in education or training, by completed education level, sex and area</p><h2>Definition</h2><p>This indicator conveys the proportion of youth (aged 15-24 years) not in education, employment or training (also known as "the youth NEET rate")</p><p>The share of youth not in employment, education or training (youth NEET rate) provides a measure of youth who are outside the educational system, not in training and not in employment, and thus serves as a broader measure of potential youth labour market entrants than youth unemployment. It includes discouraged worker youth as well as those who are outside the labour force due to disability and engagement in household chores, among other reasons. NEET is also a better measure of the current universe of potential youth labour market entrants as compared with the youth inactivity rate, as the latter includes those youth who are outside the labour force and are in education, and thus are furthering their skills and qualifications</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>International Standard Classification of Education (ISCED)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Bi-Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Next release date</h2><p>February 2018</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>In Rwanda, youth is defined as all persons between the ages is 16-24 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Youth NEET rate =</p><p>(Youth - Youth in employment + Youth not in employment but in education or training) / Youth x 100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-06-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-08-06-01.pdf</a> </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>August 2017</p><h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/statistical-publications/subject/labor-force-and-economic-activity/reports">http://www.statistics.gov.rw/statistical-publications/subject/labor-force-and-economic-activity/reports</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="348a229b-aa18-4064-acc1-71fb11d59c83">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>ST_GDP_ZS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.9</p><p>By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.9.1</p><p>Tourism direct GDP as a proportion of total GDP and in growth rate</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Tourism Organization (UNTWO)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Rwanda Development Board (RDB)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@rdb.rw">info@rdb.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Tourism Direct GDP (TDGDP) is defined as the sum of value added of tourism and other activities generated by internal tourism demand and net tax on products included in value of tourism costs by purchase prices.</p><p>Internal tourism comprises domestic and inbound tourism.</p><p>Domestic tourism comprises activities of a resident visitor within the country of reference either as part of a domestic tourism trip or part of outbound tourism trip.</p><p>Inbound tourism comprise the activities of a non-resident visitor within the country of refernce.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Presenting this economic contribution of tourism as a share of GDP shows the relative size of the tourism sector in the economy. However, Tourism GDP measures only direct effect of tourism consumption (and these are only internal), not entire tourism demands. It does not consider indirect and induced tourism effects.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The GDP attributable directly to ‘internal’ tourism consumption is measured as the sum of the part of gross value added (at basic prices) generated by all industries in response to internal tourism consumption plus the amount of net taxes on products and imports included within the value of this expenditure at purchaser’s prices.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 526 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2014</p><h2>Latest available data</h2><p>2018</p><h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="2ab9aa07-ceb0-4a64-9b80-601e5c3f0830">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>FB_BNK_ACCSS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.10</p><p>Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.10.2</p><p>Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Bank (WB)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Access to Finance Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Proportion of adult population that are banked by districts</p><h2>Definition</h2><p>The percentage of adults (ages 15+) who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or personally using a mobile money service in the past 12 months.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>In Rwanda, youth is defined as all persons between the ages is 16-24 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It can be calculated as;</p><p>Number of Adult having an account at bank or other type of institutions divided by the total adult population multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>District</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p>http://www.statistics.gov.rw/publication/finscope-rwanda-2016</p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="f96a8f11-bf18-4ab4-b88f-29c9795e3af8">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_CPA_YEMP</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.b</p><p>By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.b.1</p><p>Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Public Service and Labour (MIFOTRA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>National employment policy; Productivity and Youth Employment is one of</p><p>four thematic areas for EDPRS II, Youth Sector Strategic Plan 2013-2018</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 525kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>3</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="cb14fb97-bf9d-4b32-8f5d-73f9d3f75416">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SP_ROD_R2KM</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>9.1</p><p>Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>9.1.1</p><p>Proportion of the rural population who live within 2 km of an all-season road</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Bank (WB)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Rwanda Transport Development Agency (RTDA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of HHs that are within 2km to an all-weather road by region (Urban and Rural)</p><h2>Definition</h2><p>This indicator refers to the proportion of households having access to an all-season road within 2km to the total number of households using the facility.</p><p>According to the context of Rwanda, an all-season road is defined as a road that is open to traffic regardless of weather, season and construction materials 2 kilometres</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is calculated as: </p><p>n / N x 100</p><p>Where </p><p>n: denotes the total number of households having access to an all-season road within 2km.</p><p>N: denotes the total number of households using all-season road.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/tierIII-indicators/" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National </p><h2>Disaggregation</h2><ul><li>National, Province and Residence (Urban/Rural) </li><li>Wealth quintiles</li><li>Type of habitat</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv">http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</a></p><h2>UN designated tier</h2><p>3</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="ba573f68-ceb9-4660-9b3a-ff9c40a43ac6">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_MANF</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>9.2</p><p>Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>9.2.2.</p><p>Manufacturing employment as a proportion of total employment</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Industrial Development Organization (UNIDO)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>NISR</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Employed in industry</p><h2>Definition</h2><p>It is the share of manufacturing employment in total employment</p><p>The sectors of economic activity are defined according to the International Standard Industrial Classification of All Economic Activities (ISIC), Revision 3 (1990) and Revision 4 (2008). Manufacturing refers to industries belonging to the sector D defined by ISIC Revision 3, or C defined by ISIC Revision 4.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>International Standard Industrial Classification of All Economic Activities (ISIC), Revision 3 (1990) and Revision 4 (2008)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Bi-Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Next release date</h2><p>December 2018</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 323 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2017</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Residence (Urban/Rural)</li><li>Sex</li><li>Type of Industry</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/statistical-publications/subject/labor-force-and-economic-activity/reports">http://www.statistics.gov.rw/statistical-publications/subject/labor-force-and-economic-activity/reports</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="3b2cfa50-6d70-4288-b362-f3cfbd9465a1">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>VC_SNS_WALN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.1</p><p>Significantly reduce all forms of violence and related death rates everywhere</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.1.4</p><p>Proportion of population that feel safe walking alone around the area they live</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Office On Drugs and Crime (UNODC)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Together Against Impunity in the Great Lakes Region (TAIGLR) in collaboration with the National Public Prosecution Authority (NPPA) and the National Institute of Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><ol><li>feel safe in their neighborhoods</li><li>not afraid to walk alone at night</li></ol><h2>Definition</h2><p>This indicator refers to the proportion of the population (adults) who feel safe walking alone in their neighbourhood.</p><p>Concepts: The question measures the feeling of fear of crime in a context outside the house and refers to the immediate experience of this fear by the respondent by limiting the area in question to the “neighbourhood” or “your area” (various formulations depending on cultural, physical and language context).</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The question used in victimization surveys is: How safe do you feel walking alone in your area/neighbourhood? Answer: Very safe/fairly safe/bit unsafe/very unsafe/ I never walk alone after dark/don’t know. </p><p>The proportion of population that feel safe is calculated by summing up the number of respondents who feel “very safe” and “fairly safe” and dividing the total by the total number of respondents.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf</a> </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2008</p><h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="https://www.unodc.org/documents/data-and-analysis/dfa/Victimization_survey_Rwanda_English.pdf">https://www.unodc.org/documents/data-and-analysis/dfa/Victimization_survey_Rwanda_English.pdf</a> </p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="23c6888b-fb48-4509-9291-4aec15854215">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>GF_XPD_GBPC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.6</p><p>Develop effective, accountable and transparent institutions at all levels</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.6.1</p><p>Primary government expenditures as a proportion of original approved budget, by sector</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Bank</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Finance and Economic Planning (MINECOFIN)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Sector budget allocation as a proportion to approved budget</p><h2>Definition</h2><p>This indicator measures the extent to which aggregate budget expenditure outturn reflects the amount originally approved, as defined in government budget documentation and fiscal reports. The coverage is budgetary central government (BCG) and the time period covered is the last three completed fiscal years.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf</a> </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="dcde0aa9-f115-4ba5-aa0d-19a0294ff3a6">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SP_PSR_SATIS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.6</p><p>Develop effective, accountable and transparent institutions at all levels</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.6.2</p><p>Proportion of population satisfied with their last experience of public services</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNDP</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Rwanda Governance Board (RGB)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="http://rgb.rw/contact-us/inquiry-form/">http://rgb.rw/contact-us/inquiry-form/</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Citizens satisfied with service delivery</p><h2>Definition</h2><p>This indicator is proposed to monitor targets: </p><p>1.4 (access to basic services) </p><p>3.8 (access to quality, essential health-care services) </p><p>4.1, 4.2 and 4a (quality education, including facilities) </p><p>7.1 (access to affordable, reliable energy services) </p><p>10.2 (social inclusion) </p><p>11.1 (adequate housing) </p><p>16.3 (rule of law) </p><p>16.6 (effective, accountable and transparent institutions)</p><p>In the RGS 2016, Quality of service delivery follows the government of Rwanda clusters, namely local governance and justice sectors, social sector (health and education) as well as economic sector which includes land, agricultural and infrastructural sectors.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is calculated as the number of respondents replying that they were satisfied or very satisfied with their last experience of accessing a public service divided by the total number of respondents. The data may be weighted to reflect the general population.</p><p>Please refer to methodology part for details on how it is computed in the Rwanda Governance Score Cards under the following link </p><p><a href="http://rgb.rw/fileadmin/Rwanda_Governance_Scorecard_all/">http://rgb.rw/fileadmin/Rwanda_Governance_Scorecard_all/</a></p><p>Rwanda_Governance_Scorecard_2016.pdf</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 1361kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>By sub- indicators (Service Delivery in Local Administration, Service delivery in Justice Sector, Service Delivery in Social Sector, Service delivery in Economic Sector)</li><li>By Variables</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>3</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="91f1c410-e422-445f-b77c-392fd901c1e9">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_REG_BRTH</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>19.9</p><p>By 2030, provide legal identity for all, including birth registration</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.9.1</p><p>Proportion of children under 5 years of age whose births have been registered with a civil authority, by age</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Statistics Division (UNSD), United Nations International Children's Emergency Fund (UNICEF)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage of de jure children under age 5 whose births are registered with the civil authorities </p><h2>Definition</h2><p>Proportion of children under 5 years of age whose births have been registered with a civil authority.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Number of children under age of five whose births are reported as being registered with the relevant national civil authorities divided by the total number of children under the age of five in the population multiplied by 100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-09-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 1361kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2005</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District Residence (Urban &amp; Rural)</li><li>Sex</li><li>Age in months</li><li>Wealth Quintile</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="d191444d-7be9-4db1-b53d-741e3266a6e2">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_INF_ACCSS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.10</p><p>Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>16.10.2</p><p>Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNESCO-UIS</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Justice (MINIJUST)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Rwanda Access to Information ACT, 2013</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 1361kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="e6e51325-cc71-44d1-a91d-56082c18c6c8">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>GC_GOB_TAXD</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.1</p><p>Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.1.2</p><p>Proportion of domestic budget funded by domestic taxes</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>International Monetary Fund (IMF)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Economy and Finance (MINECOFIN)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Domestic taxes as proportion to approved budget funding</p><h2>Definition</h2><p>The precise definition of the indicator is the Proportion of domestic budgetary central government expenditure funded by taxes.</p><p>GFS: Government Finance Statistics. Tax burden: Revenue in the form of taxes as defined under government finance statistics (GFS) code 11 as a share of total revenue. In GFS, taxes are classified into six major categories: (i) taxes on income, profits, and capital gains; (ii) taxes on payroll and workforce; (iii) taxes on property; (iv) taxes on goods and services; (v) taxes on international trade and transactions; and (vi) other taxes. (Source: IMF, Government Finance Statistics Manual 2014 (GFSM 2014), Table 4A.1, assessed Dec 28 2015) Concepts Tax burden concept may be disaggregated into the complementary concepts of: "direct taxes" or taxes that take into account individual circumstances of taxpayers (e.g., taxes on individual and corporate income), which can be calculated from the following detailed GFS revenue classifications: 111 Taxes on income, profits, and capital gains+1131 Recurrent taxes on immovable property+1132 Recurrent taxes on net wealth+1136 Other recurrent taxes on property; and "indirect taxes" or taxes that do not take into account individual circumstances of taxpayers (e.g., taxes imposed on goods and services), which can be calculated from the following detailed GFS revenue classifications 112 Taxes on payroll and workforce+114 Taxes on goods and services+115 Taxes on international trade and transactions+116 Other taxes. Tax burden is directly related to the wider concept of fiscal burden, which can be derived from combining two GFSM 2014 revenue codes: code 11 Taxes plus code 12, Social Contributions or, alternatively 11+121+122. These concepts can also be found in the 2008 System of National Accounts (2008 SNA). The coverage, timing, and valuation of tax revenue in GFSM 2014 and the 2008 SNA are identical, but the classification systems differ. The 2008 SNA classifies taxes according to their role in economic activities'namely: (i) taxes on production and imports (D2); (ii) current taxes on income, wealth, etc. (D5); and (iii) capital taxes (D91). The result is that some categories of taxes in GFS need to be allocated between two of the SNA tax categories according to whether they are payable by producers or final consumers, or whether they are current or capital taxes. A detailed description of the linkages between the GFS and the 2008 SNA categories of taxes is provided in Appendix 7 of the GFSM 2014.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2008 System of National Accounts (2008 SNA)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Proportion of domestic budgetary central government expenditure funded by taxes will is calculated as Domestic Taxes / Expenditure expressed as a percentage</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="4e20cf79-5ade-4744-832f-d22e08ca66fd">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>DT_TDS_DECT</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.4</p><h5>Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress</h5>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.4.1</p><p>Debt service as a proportion of exports of goods and services</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Bank</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Economy and Finance (MINECOFIN)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>External debt service as a proportion of exports of goods and services</p><h2>Definition</h2><p>External debt service covered in this indicator refer only to public and publicly guaranteed debt.</p><p>The External Public debt service as a percentage of exports of goods and services is the sum of a country’s debt service on short and long-term public and publicly guaranteed debt and International Monetary Fund (IMF) repurchases and charges expressed as a percentage of that country’s exports of goods and services.</p><p>Public Debt service is the sum of principal repayments and interest payments actually paid on debt to non-residents. Long-term refers to debt that has an original or extended maturity of more than one year. </p><p>IMF repurchases are total repayments of outstanding drawings from the general resources account during the year specified, excluding repayments due in the reserve tranche. </p><p>IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. </p><p>Exports of goods, services and net income are the sum of goods (merchandise) exports, exports of (nonfactor) services and income (factor) receipts from abroad excluding workers' remittances.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Concepts of public and publicly guaranteed external debt data are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6) methodology. “Exports of goods and services” data concepts are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6).</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is calculated as the value of external public debt service divided by the value of exports of goods and services and multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-04-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-17-04-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="0687f44a-610a-4c92-9bfa-54aad1c587f0">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>IT_USE_II99</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.8</p><h5>Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology</h5>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.8.1</p><p>Proportion of individuals using the Internet</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>International Telecommunications Union (ITU)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry Information Communication Technology (MICT)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Percentage (%) of households with internet access at home (including through mobile phones)</p><h2>Definition</h2><p>The indicator proportion of individuals using the Internet is defined as the proportion of individuals who currently are using the Internet from any location.</p><p>In EICV, it is defined as the number of households whose at least one member has access to the Internet (including through mobile phones) out of the total number of households expressed in percentage.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3 years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>This indicator is calculated as; </p><p>N<sub>i </sub>/ N x 100</p><p>N<sub>i</sub> denotes the total number of households using currently the Internet and N the total number of households.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-08-01.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-17-08-01.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2000</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><p>National, Province, Residence (Urban, Rural) </p><p>Sex of household head</p><p>Type of habitat</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv">http://www.statistics.gov.rw/datasource/integrated-household-living-conditions-survey-eicv</a></p><h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="9d8ce06d-50cd-45cd-a75a-f9804c20031b">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_STT_FPOS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.18</p><p>By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>17.18.2</p><p>Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UNSD, PARIS21, Regional Commissions, World Bank</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda (NISR)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>The second statistical law: Organic Law No 45/2013 of 16/06/2013 </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-02.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 468kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/about-us/national-statistical-system">http://www.statistics.gov.rw/about-us/national-statistical-system</a> </p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="f0332922-d06a-4869-bcee-6fcea9a58fbb">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_ALC_CONSPT</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.5</p><p>Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.5.2</p><p>Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>World Health Organisation (WHO)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Health</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Alcohol consumption: Current and Heavy Drinkers among Survey Total Population by background characteristics</p><h2>Definition</h2><p>Consumption in the past 30 days is defined as current alcohol drinkers. The quantity of alcohol consumed was assessed and drinkers were categorized into heavy and non -heavy drinkers. </p><p>Male heavy drinkers consumed more than 5 servings on a single occasion while for female it is 4 servings on a single occasion.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is computed as;</p><p>Heavy alcohol drinker = </p><p>Number of heavy drinkers / Total population x 100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf">https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2012</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Residence: Urban, Semi-Urban, Rural</li><li>Age</li><li>Sex</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="6592428e-065e-45f3-99da-27cb03958262">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_ISV_IFEM</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.3</p><p>Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.3.1</p><p>Proportion of informal employment in non-agriculture employment, by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>International Labour Organisation (ILO)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>NISR</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Is the share of non-agricultural employment which is classified as informal employment?</p><p>Employment comprises all persons of working age who during a specified brief period, such as one week or one day, performed work for others in exchange for pay or profit. Informal employment comprises persons who in their main or secondary jobs were in one of the following categories:</p><p>- Own-account workers, employers and members of producersâ€™ cooperatives employed in their own informal sector enterprises (the characteristics of the enterprise determine the informal nature of their jobs);</p><p>- Own-account workers engaged in the production of goods exclusively for own final use by their household (e.g. subsistence farming); </p><p>- Contributing family workers, regardless of whether they work in formal or informal sector enterprises (they usually do not have explicit, written contracts of employment, and are not subject to labour legislation, social security regulations, collective agreements, etc., which determines the informal nature of their jobs); </p><p>- Employees holding informal jobs, whether employed by formal sector enterprises, informal sector enterprises, or as paid domestic workers by households (employees are considered to have informal jobs if their employment relationship is, in law or in practice, not subject to national labour legislation, income taxation, social protection or entitlement to certain employment benefits).</p><p>An enterprise belongs to the informal sector if it fulfils the three following conditions: - It is an unincorporated enterprise (it is not constituted as a legal entity separate from its owners, and it is owned and controlled by one or more members of one or more households, and it is not a quasicorporation: it does not have a complete set of accounts, including balance sheets); - It is a market enterprise (it sells at least some of the goods or services it produces); - The enterprise is not registered or the employees of the enterprise are not registered or the number of persons engaged on a continuous basis is below a threshold determined by the country.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Proportion of informal employment in non-agricultural employment =</p><p>Informal employment in non agricultural services / Total employment in non agricultural services x 100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 231 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>2017</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><ul><li>Geographical: National, Province, District Residence (Urban &amp; Rural)</li><li>Sex</li><li>By Economic Activities</li></ul>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/statistical-publications/subject/labor-force-and-economic-activity/reports">http://www.statistics.gov.rw/statistical-publications/subject/labor-force-and-economic-activity/reports</a></p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="e709b2d3-e5f9-4ace-9597-c14e15ff95e3">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SG_GEN_EQPWN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>5.c</p><p>Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>5.c.1</p><p>Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>UN WOMEN</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Gender and Family Promotion (MIGEPROF)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Organic Budget Law No. 12/2013, Instituting Gender Responsive Budgeting, Enforces accountability measures for gender sensitive resource allocation across sectors programmes and projects through Gender Budget Statements; a mandatory annex of the Budget Framework Paper submitted to both chambers of Parliament.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 634kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="dba9e799-6e53-449d-b8e5-93ce0e6e4999">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_TRP_INTVN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3</p><p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.3.5</p><p>Number of people requiring interventions against neglected tropical diseases</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>WHO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Health</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Definition</h2><p>Number of people requiring Preventive Chemotherapy (PC) for at least one of the selected neglected tropical diseases (schistosomiasis, soil-transmitted helminthiases, Schistosoma, Trichuris, Entomoelba coli)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Number</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Prevention of helminthiases / data for 15years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (pdf 865kB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Geographical coverage</h2><p>National</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>UN designated tier</h2><p>1</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+</mes:GenericMetadata>
+        

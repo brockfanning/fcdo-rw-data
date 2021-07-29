@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF1627599093</mes:ID>
+    <mes:Test>True</mes:Test>
+    <mes:Prepared>2021-07-29T22:51:33</mes:Prepared>
+    <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
+    <mes:Structure structureID="MDS1">
+      <com:Structure>
+        <URN>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(0.3)</URN>
+      </com:Structure>
+    </mes:Structure>
+  </mes:Header>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="8979ecf4-a3f9-4653-afd3-effa90fd95a6">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_ADT_FUNS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>RW</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.6</p><p>By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.6.1</p><p>Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>National Institute of Statistics of Rwanda</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:info@statistics.gov.rw">info@statistics.gov.rw</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>(a) Literacy rate (%) of population aged 15-24 years, Literacy rate (%) of population aged 15+ years</p><p>(b) Numeracy rate (%) of population aged 15-24 years, Numeracy rate (%) of population aged 15+ years</p><h2>Definition</h2><p>The proportion of youth (aged 15-24 years) and of adults (aged 15 years and above) have achieved or exceeded a given level of proficiency in (a) literacy and (b) numeracy. </p><p>In EICV, Literacy is measured through a self-assessment question on whether the respondent can read and write a simple note.</p><p>Numeracy is measured through a self-assessment question on the ability to perform a written calculation.</p><p>Whereas for DHS, literacy rate refers to men and women who attended secondary school or higher and women who can read a whole sentence or part of a sentence.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3-5 Years</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>It is calculated as;</p><p>LRta = lta / pta</p><p>Where</p><p>LRta = Literacy rate of age group a in year t </p><p>L= number of people in age group a who have achieved above the minimum level of literacy</p><p>pta = Population of age group a in year t </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to global metadata</h2><p><a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf" target="_blank">United Nations Sustainable Development Goals Metadata (PDF 57.8 KB)</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Earliest available data</h2><p>1992</p><h2>Latest available data</h2><p>2014-15</p><h2>Geographical coverage</h2><p>National</p><h2>Disaggregation</h2><p>Geographical: National, Residence (Urban/Rural), Province</p><p>Sex</p><p>Quintile</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<h2>Link to data source</h2><p><a href="http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs">http://www.statistics.gov.rw/datasource/demographic-and-health-survey-dhs</a> </p><h2>UN designated tier</h2><p>2</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+</mes:GenericMetadata>
+        
