@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <mes:Header>
-    <mes:ID>IREF1627600033</mes:ID>
+    <mes:ID>IREF1627600678</mes:ID>
     <mes:Test>True</mes:Test>
-    <mes:Prepared>2021-07-29T23:07:13</mes:Prepared>
+    <mes:Prepared>2021-07-29T23:17:58</mes:Prepared>
     <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
     <mes:Structure structureID="MDS1">
       <com:Structure>
@@ -12,7 +12,7 @@
     </mes:Structure>
   </mes:Header>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d5bcb8ec-0266-4902-88ba-00cf5cfaf878">
+  <mes:MetadataSet structureRef="MDS1" setID="7e2931b5-3bf1-42d0-946b-855b4241da95">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -119,7 +119,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="7854b87a-1bcb-4959-a9e8-3cd3a6e0d4f3">
+  <mes:MetadataSet structureRef="MDS1" setID="95d313a5-e86a-4ad5-a682-b17ea106d4aa">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -190,7 +190,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d743fb42-eaf3-4b8d-833b-5525e35c3b47">
+  <mes:MetadataSet structureRef="MDS1" setID="43a3704c-1bee-4def-8802-1e22a9224ed8">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -261,7 +261,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="25e35136-ad9c-49dc-9c62-8a0544fef4be">
+  <mes:MetadataSet structureRef="MDS1" setID="cb907f63-e9d7-4233-afd5-c4b3ecaca30b">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -332,7 +332,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="bdc4eae7-3760-4003-93b5-f5577abd8f9b">
+  <mes:MetadataSet structureRef="MDS1" setID="acea6154-ab2d-4df8-a006-6395c0e0a2b0">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -433,7 +433,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="c9c7d289-d5c5-4e55-ac8e-2a4f04d90605">
+  <mes:MetadataSet structureRef="MDS1" setID="d4751860-548a-4aa6-b61f-0c6d1d32a1c1">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -534,7 +534,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="0ad6f309-2493-4090-b430-b5a610ba27a1">
+  <mes:MetadataSet structureRef="MDS1" setID="db0646e2-523b-4a2f-a437-17f81279c00f">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -629,7 +629,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="fe0a5642-9c20-4505-a632-67803bd83001">
+  <mes:MetadataSet structureRef="MDS1" setID="a8c1c1c0-5963-4af3-a195-faabd249b621">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -724,7 +724,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="159939c2-4808-4957-a7b9-bdf24ec1a478">
+  <mes:MetadataSet structureRef="MDS1" setID="46bf94e6-3fb0-4611-be59-1228be02e125">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -825,7 +825,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="ce7824c2-d0b0-4c01-aef7-2b0078fda453">
+  <mes:MetadataSet structureRef="MDS1" setID="0c51b422-6f7d-4804-8712-ea2dafd7f123">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -932,7 +932,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="fbef97df-edef-4ea3-9b14-59dc1e8f32bc">
+  <mes:MetadataSet structureRef="MDS1" setID="5f6e9407-9257-4b7a-a8cd-a66e1780de68">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1033,7 +1033,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a06dd244-2038-4936-8fb4-c960f49f3464">
+  <mes:MetadataSet structureRef="MDS1" setID="c51097e2-8619-4e06-9cf2-79a60b28fa82">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1128,7 +1128,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="28c61181-42c9-46fc-bcb3-550e2c94a1cf">
+  <mes:MetadataSet structureRef="MDS1" setID="cf9fc315-3ca3-4457-ad0d-f3c222b14981">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1167,7 +1167,7 @@
         
         <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
           
-          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children's Fund (UNICEF)</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children&#39;s Fund (UNICEF)</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -1229,7 +1229,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="393daa6c-458d-44ee-a1af-bf81afb22b79">
+  <mes:MetadataSet structureRef="MDS1" setID="564a8896-0db0-4c11-b769-f3e818cfc82a">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1324,7 +1324,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="eb897a5f-1caa-41ae-a01a-4b3c48404d57">
+  <mes:MetadataSet structureRef="MDS1" setID="9ad87f8a-9c17-4c2e-9e8c-f8e1880ebd25">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1425,7 +1425,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="48c2769a-236a-46cc-b4ec-f73476e65fe1">
+  <mes:MetadataSet structureRef="MDS1" setID="297144b3-5939-4208-aa74-405984f7467c">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1526,7 +1526,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="237d4f6a-9137-4de8-8f08-1288bcaf29bf">
+  <mes:MetadataSet structureRef="MDS1" setID="c9d7568f-7a0c-4fbc-9c64-bd6ac9dc1b74">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1627,7 +1627,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="0c2566ef-06b2-4122-b17c-5b313b21e70d">
+  <mes:MetadataSet structureRef="MDS1" setID="c3e7e2d5-2b03-4b14-9560-b9df85a238ea">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1716,7 +1716,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="9d1a580e-742a-4bed-9728-893038b7cfea">
+  <mes:MetadataSet structureRef="MDS1" setID="10f3af77-61c4-40db-b56f-b64ee2d75058">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1817,7 +1817,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="6d0271af-de1f-484a-a209-f42d93ad226b">
+  <mes:MetadataSet structureRef="MDS1" setID="d7f98523-63b2-4145-a785-c4e49ed34e4f">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1924,7 +1924,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="f08575c7-aed1-4346-bb8a-7d1074b84f87">
+  <mes:MetadataSet structureRef="MDS1" setID="9688986f-6e6c-49a2-aa18-8453b1201407">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2043,7 +2043,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="6a59f09c-bb48-4d77-b70d-4e8349b9ee9f">
+  <mes:MetadataSet structureRef="MDS1" setID="400af530-c4e3-4791-bcf0-782f769a8d04">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2150,7 +2150,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a2e2e551-e52b-4aef-ade7-eb37b2b54a5e">
+  <mes:MetadataSet structureRef="MDS1" setID="3e6ccd2b-c32e-4118-8eef-21953b506930">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2251,7 +2251,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="e6a623c0-f45e-4017-93a9-ab4b13d28155">
+  <mes:MetadataSet structureRef="MDS1" setID="b9fe75c1-194c-4baa-97ec-21585ae938b8">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2328,7 +2328,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="20271175-c8d0-4e21-b997-1d4bcf1a73a1">
+  <mes:MetadataSet structureRef="MDS1" setID="6edbd66b-0c24-4dbf-81a3-52593ac4b4ec">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2429,7 +2429,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="7b26a8b5-6757-4453-9a49-92a1fdd0e948">
+  <mes:MetadataSet structureRef="MDS1" setID="70439ebf-35dc-483f-845a-720f2983d867">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2536,7 +2536,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="29f139ce-77f1-420d-bf48-d6446bf1275f">
+  <mes:MetadataSet structureRef="MDS1" setID="ac72eaa2-cdae-45c1-8511-9a5595342f6f">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2625,7 +2625,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="6f9271a4-cc95-499b-a80f-8b65efb11ef1">
+  <mes:MetadataSet structureRef="MDS1" setID="56025a04-806f-4898-83e6-ddbacd244d9e">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2702,7 +2702,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="cb7f8b42-6a1f-4c0a-af1c-1fea713fa759">
+  <mes:MetadataSet structureRef="MDS1" setID="1579f466-d737-4663-a15b-6d3420594b6d">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2803,7 +2803,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="7d93bf11-30c2-4204-80be-6e4770e6b305">
+  <mes:MetadataSet structureRef="MDS1" setID="87040219-46cf-4882-98d5-01ec8bc79bd4">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2842,7 +2842,7 @@
         
         <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
           
-          <com:Text xml:lang="en"><![CDATA[<p>United Nations Statistics Division (UNSD), United Nations International Children's Emergency Fund (UNICEF)</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Statistics Division (UNSD), United Nations International Children&#39;s Emergency Fund (UNICEF)</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -2904,7 +2904,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="0a31ed7a-a966-4d75-8276-9611664a1f1b">
+  <mes:MetadataSet structureRef="MDS1" setID="84da5b64-4503-4a1f-bd40-d34144f6640f">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2981,7 +2981,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d36fb685-41b6-4bb9-9eef-3cfc357a1459">
+  <mes:MetadataSet structureRef="MDS1" setID="1a6253ad-7a23-4f37-8077-8f18cc311612">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3032,7 +3032,7 @@
         
         <gen:ReportedAttribute id="STAT_CONC_DEF">
           
-          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Domestic taxes as proportion to approved budget funding</p><h2>Definition</h2><p>The precise definition of the indicator is the Proportion of domestic budgetary central government expenditure funded by taxes.</p><p>GFS: Government Finance Statistics. Tax burden: Revenue in the form of taxes as defined under government finance statistics (GFS) code 11 as a share of total revenue. In GFS, taxes are classified into six major categories: (i) taxes on income, profits, and capital gains; (ii) taxes on payroll and workforce; (iii) taxes on property; (iv) taxes on goods and services; (v) taxes on international trade and transactions; and (vi) other taxes. (Source: IMF, Government Finance Statistics Manual 2014 (GFSM 2014), Table 4A.1, assessed Dec 28 2015) Concepts Tax burden concept may be disaggregated into the complementary concepts of: "direct taxes" or taxes that take into account individual circumstances of taxpayers (e.g., taxes on individual and corporate income), which can be calculated from the following detailed GFS revenue classifications: 111 Taxes on income, profits, and capital gains+1131 Recurrent taxes on immovable property+1132 Recurrent taxes on net wealth+1136 Other recurrent taxes on property; and "indirect taxes" or taxes that do not take into account individual circumstances of taxpayers (e.g., taxes imposed on goods and services), which can be calculated from the following detailed GFS revenue classifications 112 Taxes on payroll and workforce+114 Taxes on goods and services+115 Taxes on international trade and transactions+116 Other taxes. Tax burden is directly related to the wider concept of fiscal burden, which can be derived from combining two GFSM 2014 revenue codes: code 11 Taxes plus code 12, Social Contributions or, alternatively 11+121+122. These concepts can also be found in the 2008 System of National Accounts (2008 SNA). The coverage, timing, and valuation of tax revenue in GFSM 2014 and the 2008 SNA are identical, but the classification systems differ. The 2008 SNA classifies taxes according to their role in economic activities'namely: (i) taxes on production and imports (D2); (ii) current taxes on income, wealth, etc. (D5); and (iii) capital taxes (D91). The result is that some categories of taxes in GFS need to be allocated between two of the SNA tax categories according to whether they are payable by producers or final consumers, or whether they are current or capital taxes. A detailed description of the linkages between the GFS and the 2008 SNA categories of taxes is provided in Appendix 7 of the GFSM 2014.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>Domestic taxes as proportion to approved budget funding</p><h2>Definition</h2><p>The precise definition of the indicator is the Proportion of domestic budgetary central government expenditure funded by taxes.</p><p>GFS: Government Finance Statistics. Tax burden: Revenue in the form of taxes as defined under government finance statistics (GFS) code 11 as a share of total revenue. In GFS, taxes are classified into six major categories: (i) taxes on income, profits, and capital gains; (ii) taxes on payroll and workforce; (iii) taxes on property; (iv) taxes on goods and services; (v) taxes on international trade and transactions; and (vi) other taxes. (Source: IMF, Government Finance Statistics Manual 2014 (GFSM 2014), Table 4A.1, assessed Dec 28 2015) Concepts Tax burden concept may be disaggregated into the complementary concepts of: "direct taxes" or taxes that take into account individual circumstances of taxpayers (e.g., taxes on individual and corporate income), which can be calculated from the following detailed GFS revenue classifications: 111 Taxes on income, profits, and capital gains+1131 Recurrent taxes on immovable property+1132 Recurrent taxes on net wealth+1136 Other recurrent taxes on property; and "indirect taxes" or taxes that do not take into account individual circumstances of taxpayers (e.g., taxes imposed on goods and services), which can be calculated from the following detailed GFS revenue classifications 112 Taxes on payroll and workforce+114 Taxes on goods and services+115 Taxes on international trade and transactions+116 Other taxes. Tax burden is directly related to the wider concept of fiscal burden, which can be derived from combining two GFSM 2014 revenue codes: code 11 Taxes plus code 12, Social Contributions or, alternatively 11+121+122. These concepts can also be found in the 2008 System of National Accounts (2008 SNA). The coverage, timing, and valuation of tax revenue in GFSM 2014 and the 2008 SNA are identical, but the classification systems differ. The 2008 SNA classifies taxes according to their role in economic activities&#39;namely: (i) taxes on production and imports (D2); (ii) current taxes on income, wealth, etc. (D5); and (iii) capital taxes (D91). The result is that some categories of taxes in GFS need to be allocated between two of the SNA tax categories according to whether they are payable by producers or final consumers, or whether they are current or capital taxes. A detailed description of the linkages between the GFS and the 2008 SNA categories of taxes is provided in Appendix 7 of the GFSM 2014.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -3070,7 +3070,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="620e95eb-ffc4-45cb-9c72-f42862ccd305">
+  <mes:MetadataSet structureRef="MDS1" setID="60d35e23-131f-4624-ba1d-6da8220294bd">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3121,7 +3121,7 @@
         
         <gen:ReportedAttribute id="STAT_CONC_DEF">
           
-          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>External debt service as a proportion of exports of goods and services</p><h2>Definition</h2><p>External debt service covered in this indicator refer only to public and publicly guaranteed debt.</p><p>The External Public debt service as a percentage of exports of goods and services is the sum of a country’s debt service on short and long-term public and publicly guaranteed debt and International Monetary Fund (IMF) repurchases and charges expressed as a percentage of that country’s exports of goods and services.</p><p>Public Debt service is the sum of principal repayments and interest payments actually paid on debt to non-residents. Long-term refers to debt that has an original or extended maturity of more than one year. </p><p>IMF repurchases are total repayments of outstanding drawings from the general resources account during the year specified, excluding repayments due in the reserve tranche. </p><p>IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. </p><p>Exports of goods, services and net income are the sum of goods (merchandise) exports, exports of (nonfactor) services and income (factor) receipts from abroad excluding workers' remittances.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<h2>Indicator available</h2><p>External debt service as a proportion of exports of goods and services</p><h2>Definition</h2><p>External debt service covered in this indicator refer only to public and publicly guaranteed debt.</p><p>The External Public debt service as a percentage of exports of goods and services is the sum of a country’s debt service on short and long-term public and publicly guaranteed debt and International Monetary Fund (IMF) repurchases and charges expressed as a percentage of that country’s exports of goods and services.</p><p>Public Debt service is the sum of principal repayments and interest payments actually paid on debt to non-residents. Long-term refers to debt that has an original or extended maturity of more than one year. </p><p>IMF repurchases are total repayments of outstanding drawings from the general resources account during the year specified, excluding repayments due in the reserve tranche. </p><p>IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. </p><p>Exports of goods, services and net income are the sum of goods (merchandise) exports, exports of (nonfactor) services and income (factor) receipts from abroad excluding workers&#39; remittances.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -3171,7 +3171,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="f0b735f6-945e-49ee-846a-a97cb3479b67">
+  <mes:MetadataSet structureRef="MDS1" setID="cec5f3fb-50d1-4a89-a9d1-caffbbb77840">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3272,7 +3272,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="ba92a36e-33cb-4f7f-8789-ea1f69e53984">
+  <mes:MetadataSet structureRef="MDS1" setID="d205ffd6-af85-437d-8b28-1ee5f849439c">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3349,7 +3349,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="7f6ce899-f3b4-4f7a-ae99-6ef2a0c6bf6b">
+  <mes:MetadataSet structureRef="MDS1" setID="22923ea1-2dc9-4cec-91f3-c46d48b3fb90">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3438,7 +3438,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a39272e3-052f-4c94-befe-040731d22492">
+  <mes:MetadataSet structureRef="MDS1" setID="120e1fee-3d7d-41f6-bdd5-2fc12be4a249">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3539,7 +3539,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="72cfb6f8-a3f4-4db4-a64b-926eac881f0a">
+  <mes:MetadataSet structureRef="MDS1" setID="dda944ef-1282-44d2-a1a6-48af1b9152e2">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3616,7 +3616,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="5cf8b149-b9ca-44b1-9eb0-357e5cdc3419">
+  <mes:MetadataSet structureRef="MDS1" setID="9f9492c0-df97-42dd-a4f2-69b9a4267e45">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
